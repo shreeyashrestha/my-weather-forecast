@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <title>My Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body> 
+    <main id ="app-containter">
+        <form id ="search-form">
+            <input type="search"
+            placeholder ="Enter name of city"
+            id ="search-input"
+            required
+            autocomplete ="off">
+            <button id="search-button">&#x1F50D;</button>
+        </form> 
+        <h1>I feel like </h1>
+        <div id="location">
+            <p>------</p>
+        </div>       
+        <h2> right now.</h2>
+        <div id="temp" >
+            <img id="temp-icon" src="icons/sunny.svg" alt ="sunny">
+            <div class="degree">
+            <h2 id ="temp-value">----</h2>
+            <span class ="temp-unit">&#176C</span>
+        </div>    
+        </div>        
+        <div id="climate">
+            <p>-----</p>            
+        </div>
+    </main>
+    <footer class ="bottom">
+        <p>
+            <a href ="https://shreeyashrestha.github.io/" target ="_blank">&copy; Shreeya Shrestha 2021</a> <br>
+            Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        </p>
+</footer>
+</body>
+</html>
