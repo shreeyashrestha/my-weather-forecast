@@ -31,39 +31,39 @@ const getWeather = async (city) =>
     tempvalue.textContent=Math.round(feels_like-273);
     if( id<=209 && id>=200)
     {
-        tempicon.src ="/icons/storm.svg";
+        tempicon.src ="/icons/storm.png";
     }
     else if( id<=229 && id>=211)
     {
-        tempicon.src ="/icons/thunder.svg";
+        tempicon.src ="/icons/thunder.png";
     }
     else if( id<=499 && id>=300)
     {
-    tempicon.src ="/icons/rainy.svg";
+    tempicon.src ="/icons/rainy.png";
     }
     else if( id<=599 && id>=500)
     {
-    tempicon.src ="/icons/heavyrain.svg";
+    tempicon.src ="/icons/heavyrain.png";
     }
     else if( id<=699 && id>=600)
     {
-        tempicon.src ="/icons/snow.svg";
+        tempicon.src ="/icons/snow.png";
     }
     else if( id<=780 && id>=700)
     {
-        tempicon.src ="/icons/wind.svg";
+        tempicon.src ="/icons/wind.png";
     }
     else if( id === 781)
     {
-        tempicon.src ="/icons/tornado.svg";
+        tempicon.src ="/icons/tornado.png";
     }
     else if( id === 800)
     {
-        tempicon.src ="/icons/clear.svg";
+        tempicon.src ="/icons/clear.png";
     }
     else if( id<900 && id>=801)
     {
-        tempicon.src ="/icons/cloud.svg";
+        tempicon.src ="/icons/cloud.png";
     }
     }
     catch (error)
@@ -96,39 +96,39 @@ window.addEventListener("load" , () => {
                     tempvalue.textContent = Math.round(feels_like-273);
                     if( id<=209 && id>=200)
                     {
-                        tempicon.src ="/icons/storm.svg";
+                        tempicon.src ="/icons/storm.png";
                     }
                     else if( id<=229 && id>=211)
                     {
-                        tempicon.src ="/icons/thunder.svg";
+                        tempicon.src ="/icons/thunder.png";
                     }
                     else if( id<=499 && id>=300)
                     {
-                        tempicon.src ="/icons/rainy.svg";
+                        tempicon.src ="/icons/rainy.png";
                     }
                     else if( id<=599 && id>=500)
                     {
-                        tempicon.src ="/icons/heavyrain.svg";
+                        tempicon.src ="/icons/heavyrain.png";
                     }
                     else if( id<=699 && id>=600)
                     {
-                        tempicon.src ="/icons/snow.svg";
+                        tempicon.src ="/icons/snow.png";
                     }
                     else if( id<=780 && id>=700)
                     {
-                        tempicon.src ="/icons/wind.svg";
+                        tempicon.src ="/icons/wind.png";
                     }
                     else if( id === 781)
                     {
-                        tempicon.src ="/icons/tornado.svg";
+                        tempicon.src ="/icons/tornado.png";
                     }
                     else if( id === 800)
                     {
-                        tempicon.src ="/icons/clear.svg";
+                        tempicon.src ="/icons/clear.png";
                     }
                     else if( id<900 && id>=801)
                     {
-                        tempicon.src ="/icons/cloud.svg";
+                        tempicon.src ="/icons/cloud.png";
                     }
 
                 })
