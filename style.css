@@ -1,0 +1,118 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding: 0;
+}
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:#F2E3D5;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#search-form {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+#search-button {
+    text-decoration: none;
+    background:#253659;
+    border-radius: 10px;
+    margin-left:10px;
+    padding: 6px;
+    display: inline-block;
+    transition: all 0.4 ease 0s;
+    border-color:#253659 ;
+}
+
+::placeholder {
+    color:#38558f;
+    font-family:'Josefin Sans', sans-serif;
+}
+#search-input {
+    width: 200px;
+    overflow: hidden;
+    font-size: 14px;
+    margin: 8px 0;
+    padding: 8px 0;
+    border-bottom: 2px solid #253659;
+    color: #F2E3D5;
+    outline: none;
+    background: none;
+}
+input {
+    border:none;
+}
+h1, h2 {
+    text-align: center;
+    color: #F2F2F2;
+}
+#temp {
+    text-align: center;
+}
+.degree {
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+.temp-unit {
+    font-size: 1.5rem;
+    color: #F2F2F2;
+    margin:8px;
+}
+#temp-value {
+    font-size: 2rem;
+    color: #F2F2F2;
+}
+#climate{
+    font-size: 2.5rem;
+    color: #F2F2F2;
+    text-align: center;
+}
+#location {
+    font-size: 1.5rem;
+    line-height:1.5em;
+    color: #5278c4;
+    text-align: center;
+}
+#temp-icon {
+    margin: 1rem;
+    width:60%;
+    height:auto;
+}
+main {
+    padding:20px;
+    background-color:#142240;
+    border-radius:20px;
+    width: 360px;
+    height: 550px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 20px 10px rgba(112, 102, 102, 0.4);
+}
+footer {
+    position: fixed;
+    bottom:0;
+    height: 2rem;
+}
+.bottom {
+    background-color: #F2F2DC;
+    width:100%;
+   text-align:center;
+   padding: 2px;
+   font-size: 12px;
+   color:  #142240;
+}
+.bottom a {
+   text-decoration: none;
+   font-weight: 600;
+   color:#253659;
+}
+.bottom a:hover {
+   background:#e8c9ac;
+   color:#142240;
+}
